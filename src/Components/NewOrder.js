@@ -21,7 +21,7 @@ function NewOrder() {
             <div className="container">
                 <div className="addon">
                     <div className="col-25">
-                        <h3>Addons</h3>
+                        <h3>Additional Items</h3>
                     </div>
                 </div>
             </div>

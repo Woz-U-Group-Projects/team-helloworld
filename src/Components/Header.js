@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-//import {Link} from "react-router";
+import { Link} from "react-router-dom";
 
 function Header() {
   return (
@@ -9,9 +9,18 @@ function Header() {
             <span className="words"><span className="greenBoy">Green</span>Books</span>
         </div>
         <div className="navBar">
-            <a href="/orders"><div className="navLink">Orders</div></a>
-            <a href="/NewOrder"><div className="navLink">New Order</div></a>
-            <a href="/new-customer"><div className="navLink">New Customer</div></a>
+            <Link to="/Orders">
+            <div className="navLink">Orders</div>
+            </Link>
+            <Link to="/NewOrder">
+            <div className="navLink">New Order</div>
+            </Link>
+            <Link to="/CheckOut">
+            <div className="navLink">Check Out</div>
+            </Link>
+            <Link to ="/NewCustomer">
+            <div className="navLink">New Customer</div>
+            </Link>
             <a href="/logout"><div className="navLink2">Log Out</div></a>
         </div>
     </div>
