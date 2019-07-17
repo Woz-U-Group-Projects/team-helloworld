@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Header from './Components/Header';
 //import Orders from './Components/Orders';
+//import CheckOut from './Components/CheckOut';
 import NewOrder from './Components/NewOrder';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <br></br><br></br>
+      
       <NewOrder />
       
     </div>
