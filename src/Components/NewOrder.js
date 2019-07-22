@@ -13,7 +13,7 @@ function NewOrder() {
 
 <Container>
 <Jumbotron>
-<Image src={Lawn} fluid />
+<Image src={Lawn} fluid rounded />
   <h1>Lawn Care Packages</h1>
     <p>
         Thanks for choosing GreenBooks for your lawn care needs. We are sure to have a package to fit your needs.
