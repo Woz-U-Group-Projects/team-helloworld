@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>GreenBooks - Orders</title>
+<meta http-equiv="Content-Type" content="text/html" ; charset=UTF-8 />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<div class="orders">
+
+	<h1>Orders</h1>
+	<div>
+		<table>
+			<tr>
+				<th>Order ID</th>
+				<th>Customer Name</th>
+				<th>Service Date</th>
+				<th>Mow/Trim</th>
+				<th>CU</th>
+				<th>PW</th>
+				<th>R</th>
+				<th>LR</th>
+				<th>MISC</th>
+				<th>Total ($)</th>
+				<th>Payment Type</th>
+				<th>Payment Status</th>
+			</tr>
+			<tr th:each="Order : ${orders}">
+				<td th:text="${Order.order_ID}"></td>
+				<td th:text="${Order.customer_name}"></td>
+				<td th:text="${Order.service_date}"></td>
+				
+				<td><span class="dollarSign">$</span><span th:text="${Order.mow_trim}"></span></td>
+				<td><span class="dollarSign">$</span><span th:text="${Order.cu}"></span></td>
+				<td><span class="dollarSign">$</span><span th:text="${Order.pw}"></span></td>
+				<td><span class="dollarSign">$</span><span th:text="${Order.r}"></span></td>
+				<td><span class="dollarSign">$</span><span th:text="${Order.lr}"></span></td>
+				<td><span class="dollarSign">$</span><span th:text="${Order.misc}"></span></td>
+				
+				<td><span class="dollarSign">$</span><span th:text="${Order.order_total}"></span></td>
+				<td th:text="${Order.payment_type}"></td>
+				<td th:text="${Order.payment_status}"></td>
+			</tr>
+		</table>
+	</div>
+</div>
+</body>
+
+</html>
