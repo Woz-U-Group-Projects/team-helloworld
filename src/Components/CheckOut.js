@@ -68,17 +68,7 @@ function CheckOut() {
         </div>
       </div>
 
-      <div className="col-25">
-        <div className="container">
-          <h4>Cart <span className="price"> <b>4</b> </span> </h4>
-          <p><img id="img1" src="https://dummyimage.com/50x100/0011ff/0011ff" alt="visa" /> Product 1 <span className="price">$15</span></p>
-          <p><img id="img1" src="https://dummyimage.com/50x100/0011ff/0011ff" alt="visa" /> Product 2 <span className="price">$15</span></p>
-          <p><img id="img1" src="https://dummyimage.com/50x100/0011ff/0011ff" alt="visa" /> Product 3 <span className="price">$8</span></p>
-          <p><img id="img1" src="https://dummyimage.com/50x100/0011ff/0011ff" alt="visa" /> Product 4 <span className="price">$2</span></p>
-          <hr></hr>
-          <p>Total <span className="price"><b>$30</b></span></p>
-        </div>
-      </div>
+      
 
     </div>
 

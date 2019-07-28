@@ -9,6 +9,7 @@ import { Container, Carousel, Card } from 'react-bootstrap';
 import Lawn from './Images/lawn1.jpg'
 import Lawn2 from './Images/lawn2.jpg'
 import Lawn3 from './Images/lawn3.jpg'
+import CustProf from './Components/CustProf';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/orders" component={Orders} />
         <Route path="/newOrder" component={NewOrder} />
         <Route path="/checkOut" component={CheckOut} />
+        <Route path="/custProf" component={CustProf} />
         </Switch>
       </div>
     </Router>
@@ -29,7 +31,7 @@ function App() {
 
 const Home = () => (
   
-    <Carousel>
+<Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"

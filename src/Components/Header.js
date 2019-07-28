@@ -21,6 +21,9 @@ function Header() {
             <Link to ="/NewCustomer">
             <div className="navLink">New Customer</div>
             </Link>
+            <Link to ="/CustProf">
+            <div className="navLink">Profile</div>
+            </Link>
             <a href="/logout"><div className="navLink2">Log Out</div></a>
         </div>
     </div>
