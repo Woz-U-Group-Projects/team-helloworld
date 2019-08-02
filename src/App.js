@@ -10,6 +10,7 @@ import Lawn from './Images/lawn1.jpg'
 import Lawn2 from './Images/lawn2.jpg'
 import Lawn3 from './Images/lawn3.jpg'
 import CustProf from './Components/CustProf';
+import Home from './Components/Home';
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <div className="App">
         <Header />
         <br></br><br></br>
+        <Home />
         <Switch>
-        <Route path="/" exact component={Home} />    
+           
         <Route path="/orders" component={Orders} />
         <Route path="/newOrder" component={NewOrder} />
         <Route path="/checkOut" component={CheckOut} />
@@ -29,7 +31,7 @@ function App() {
   );
 }
 
-const Home = () => (
+/*const Home = () => (
   
 <Carousel>
   <Carousel.Item>
@@ -70,5 +72,5 @@ const Home = () => (
 </Carousel>
   
 );
-
+*/
 export default App;

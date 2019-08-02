@@ -5,7 +5,7 @@ import Grass from '../Images/grass1.png'
 import Mower from '../Images/mower1.png'
 import Ultimate from '../Images/ultimate1.png'
 import CTE from '../Images/mower2.png'
-import Lawn from '../Images/lawn1.jpg'
+import Lawn from '../Images/lawn4.jpg'
 import {Card, CardDeck, Container, Button, ListGroup, Jumbotron, Image, Row, Col} from 'react-bootstrap'
 
 function NewOrder() {
@@ -14,6 +14,7 @@ function NewOrder() {
 <Container fluid>
 <Jumbotron>
 <Image src={Lawn} fluid rounded />
+    <br></br><br></br><br></br>
   <h1>Lawn Care Packages</h1>
     <p>
         Thanks for choosing GreenBooks for your lawn care needs. We are sure to have a package to fit your needs.
@@ -22,7 +23,7 @@ function NewOrder() {
 </Jumbotron>
 
 <CardDeck>
-    <Col>
+    <Col lg = "auto" fluid = "true">
   <Card>
     <Card.Img variant="top" src={Grass} />
     <Card.Body>
@@ -45,7 +46,7 @@ function NewOrder() {
     </Card.Footer>
   </Card>
   </Col>
-  <Col>
+  <Col lg = "auto" fluid = "true">
   <Card>
     <Card.Img variant="top" src={Mower} />
     <Card.Body>
@@ -68,7 +69,7 @@ function NewOrder() {
     </Card.Footer>
   </Card>
   </Col>
-  <Col>
+  <Col lg = "auto" fluid = "true">
   <Card>
     <Card.Img variant="top" src={CTE} />
     <Card.Body>
@@ -91,7 +92,7 @@ function NewOrder() {
     </Card.Footer>
   </Card>
   </Col>
-  <Col>
+  <Col lg = "auto" fluid = "true">
   <Card>
     <Card.Img variant="top" src={Ultimate} />
     <Card.Body>

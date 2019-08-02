@@ -5,9 +5,11 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
-        <div className="logoStrip">
-            <span className="words"><span className="greenBoy">Green</span>Books</span>
+      <Link to="/Home">
+        <div className="logoStrip">          
+            <span className="words"><span className="greenBoy">Green</span>Books</span>           
         </div>
+        </Link>
         <div className="navBar">
             <Link to="/Orders">
             <div className="navLink">Orders</div>
@@ -18,8 +20,8 @@ function Header() {
             <Link to="/CheckOut">
             <div className="navLink">Check Out</div>
             </Link>
-            <Link to ="/NewCustomer">
-            <div className="navLink">New Customer</div>
+            <Link to ="/test">
+            <div className="navLink">test</div>
             </Link>
             <Link to ="/CustProf">
             <div className="navLink">Profile</div>
