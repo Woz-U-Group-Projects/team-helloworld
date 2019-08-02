@@ -46,6 +46,8 @@ function Home() {
   </Carousel.Item>
 </Carousel>
 
+<br></br>
+
 <CardDeck>
   <Col lg = "auto" fluid = "true" >
   <Card>
@@ -91,9 +93,41 @@ function Home() {
     </Card.Footer>
   </Card>
   </Col>
+
+  <Col lg = "auto" fluid = "true">
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Susan G.</Card.Title>
+      <Card.Text>
+      "Customer Review Text Goes Here....".{' '}
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Added 06/22/2019</small>
+    </Card.Footer>
+  </Card>
+  </Col>
+
+  <Col lg = "auto" fluid = "true">
+  <Card>
+    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Body>
+      <Card.Title>Susan G.</Card.Title>
+      <Card.Text>
+      "Customer Review Text Goes Here....".{' '}
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Added 06/22/2019</small>
+    </Card.Footer>
+  </Card>
+  </Col>
+  
   
 
 </CardDeck>
+<br></br>
 </Container>
 );
 }
