@@ -51,14 +51,13 @@ function Home() {
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Teddy R.</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+        "Customer Review Text Goes Here...."
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Added 05/22/2019</small>
     </Card.Footer>
   </Card>
   </Col>
@@ -67,14 +66,13 @@ function Home() {
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Susan G.</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+      "Customer Review Text Goes Here....".{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Added 06/22/2019</small>
     </Card.Footer>
   </Card>
   </Col>
@@ -83,15 +81,13 @@ function Home() {
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Richard M.</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      "Customer Review Text Goes Here...."
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Added 07/22/2019</small>
     </Card.Footer>
   </Card>
   </Col>
